@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What do you do?",
+        "What you do?",
+        "What is your work?"
+      ],
+      "responses": [
+        "We help people ditch the script on the old ways of thinking and make the people-work connections that enable the growth which job seekers and employers are striving for.",
+        "We're all about placing the right people in the right positions, not just filling a quota. We listen to both the client and candidate's needs and ensure the entire process is a conversation, not just a transaction",
+        "We establish an ease in alliance between the company demand and skilled workforce through our well-defined research and tech based platform which mainly monitors the real time market trend and various diversified needs.",
+        "The alliance is established by assisting the company with a skilled workforce and providing the opportunity to the talented candidates to update their employment status.",
+        "It's not a success until both our client and candidate are happy. Let us help you find success, no matter which side of the process you're on."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "reason",
+      "patterns": [
+        "Why we do?",
+        "What's the reason you do this?",
+        "Why are you doing this?"
+      ],
+      "responses": [
+        "We live in a world where nothing is permanent, job seekers and employers are continually asking, “What’s next?” The next chapter in life and quest for advancement means careers are continually in motion.",
+        "The next business strategy and journey for growth means employers are continually testing their workforce effectiveness. At Prof-cess, we always think about what’s next we have stored for you."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Where is your office?",
+        "What's the address of your office?",
+        "Is your office in India?"
+      ],
+      "responses": [
+        "Hoshangabad Road, Bhopal – 462026, India Email: contact@profcess.com"
+      ]
+    },
+    {
+      "tag": "more",
+      "patterns": [
+        "I need more details",
+        "Give me more details",
+        "I need to know more"
+      ],
+      "responses": [
+        "For more details please go through the link https://profcess.com/"
+      ]
+    }
+    
+  ]
+}
